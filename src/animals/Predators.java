@@ -29,6 +29,12 @@ public class Predators extends Mammals{
     public void eat(){
         System.out.println("Охотиться");
     }
+
+    @Override
+    public void sleep() {
+
+    }
+
     @Override
     public String toString() {
         return "Класс "+getClass() + ". " + getName() + " возвраст: " + getAge() + " года, среда обитания: " +

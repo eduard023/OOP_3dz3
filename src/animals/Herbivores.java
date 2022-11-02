@@ -29,6 +29,12 @@ public class Herbivores extends Mammals{
     public void eat(){
         System.out.println("Пастись");
     }
+
+    @Override
+    public void sleep() {
+
+    }
+
     @Override
     public String toString() {
         return "Класс "+getClass() + ". " + getName() + " возвраст: " + getAge() + " года, среда обитания: " +

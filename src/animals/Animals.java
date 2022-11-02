@@ -35,19 +35,12 @@ public abstract class Animals {
         }
     }
 
-    public void eat(){
-        System.out.println("Кушать");
-    }
+    public abstract void eat();
 
-    public void go() {
-        System.out.println("Перемещаться");
-    }
+    public abstract void go();
 
-    public void sleep(){
-        System.out.println("Спать");
 
-    }
-
+    public abstract void sleep();
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

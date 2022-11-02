@@ -30,6 +30,11 @@ public class Flightless extends Bird {
     }
 
     @Override
+    public void sleep() {
+
+    }
+
+    @Override
     public String toString() {
         return "Класс "+getClass() + ". " + getName() + " возвраст: " + getAge() + " года, среда обитания: " +
                 getLivingEnvironment() + ",  тип передвижения: " + typeOfMovement;

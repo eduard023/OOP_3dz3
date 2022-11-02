@@ -27,6 +27,12 @@ public class Flying extends Bird {
     public void go() {
         System.out.println("Летать");
     }
+
+    @Override
+    public void sleep() {
+
+    }
+
     @Override
     public String toString() {
         return "Класс "+getClass() + ". " + getName() + " возвраст: " + getAge() + " года, среда обитания: " +
